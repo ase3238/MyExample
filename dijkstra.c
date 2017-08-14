@@ -278,7 +278,7 @@ int read_input_file(char *filename) {
 
     // adjacency list representation of a simple undirected graph
     if ((fp = fopen(filename, "r")) == NULL) {
-        perror("Error opening input file\n");
+        perror("Input File Error.\n");
         return -1;
     }
 
